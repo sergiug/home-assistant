@@ -1,0 +1,34 @@
+{
+    "data": {
+        "credentials": [],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "70f2bd73e4794956846bf7b096571a97",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

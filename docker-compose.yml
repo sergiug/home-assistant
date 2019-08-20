@@ -2,7 +2,7 @@ version: '3.1'
 services:
   homeassistant:
     container_name: home-assistant
-    image: homeassistant/home-assistant
+    image: homeassistant/raspberrypi4-homeassistant
     ports:
       - "8123:8123"
     volumes:

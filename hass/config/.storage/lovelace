@@ -1,0 +1,33 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        "person.sergiu",
+                        "sensor.load_5m",
+                        "sensor.cpu_temperature",
+                        "sensor.load_15m",
+                        "sensor.disk_use_percent_home",
+                        "sensor.memory_use_percent",
+                        "sensor.processor_use",
+                        "sensor.last_boot",
+                        "sensor.load_1m",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

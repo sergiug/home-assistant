@@ -8,6 +8,7 @@
 .cloud
 #.storage
 *.storage/cloud
+*.storage/auth*
 .uuid
 core.*
 OZW_Log.txt

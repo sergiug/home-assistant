@@ -6,7 +6,8 @@
 *.conf
 *.pickle
 .cloud
-.storage
+#.storage
+*.storage/cloud
 .uuid
 core.*
 OZW_Log.txt
